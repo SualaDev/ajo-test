@@ -4,13 +4,13 @@
       <div class="location"></div>
       <div class="text">
         <h2>Explore cities with ease</h2>
-        <p>Find local attractions and hot <br> spots easily without the stress of <br> asking the locals.</p>
+        <p class="attraction">Find local attractions and hot spots easily without the stress of asking the locals.</p>
       </div>
     </div>
     <div class="second-card">
       <div class="text">
         <h2>Never get lost</h2>
-        <p>Get directions directly <br> from the app and also <br> book rides with local car <br> hires directly.</p>
+        <p class="direction">Get directions directly from the app and also book rides with local car hires directly.</p>
       </div>
       <div class="phone"></div>
     </div>
@@ -18,7 +18,7 @@
       <div class="world"></div>
       <div class="text">
         <h2>International suggestions</h2>
-        <p>Get trip ideas for other <br> countries and cities for <br> you to explore when in <br> doubt.</p>
+        <p class="trip">Get trip ideas for other countries and cities for you to explore when in doubt.</p>
       </div>
     </div>
   </div>
@@ -77,6 +77,15 @@
 .text{
   display: flex;
   flex-direction: column;
+}
+.attraction{
+  width: 383px;
+}
+.direction{
+  width: 296px;
+}
+.trip{
+  width: 296px;
 }
 h2{
   font-size: 35px;

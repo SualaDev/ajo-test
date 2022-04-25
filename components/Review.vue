@@ -7,7 +7,7 @@
         <div class="sweater"></div>
         <div class="text">
           <h2 class="name">Bernice Semiu</h2>
-          <p class="details">Ajo is very helpful and <br> super easy to use, I had no <br> issues finding local <br> attractions and hot spots.</p>
+          <p class="details">Ajo is very helpful and super easy to use, I had no issues finding local attractions and hot spots.</p>
         </div>
     </div>
     <div class="forward-btn"></div>
@@ -82,6 +82,7 @@
   line-height: 36px;
   font-family: 'Cereal Light';
   font-weight: 300;
+  width: 296px;
 }
 .review{
   display: flex;
