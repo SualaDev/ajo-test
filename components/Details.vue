@@ -77,7 +77,7 @@
   text-align: center;
   padding: 0 2rem;
   background-color: #FFF;
-  font-size: 24px;
+  font-size: 21px;
   line-height: 2.75rem;
   font-family: 'Cereal Medium';
   font-weight: 500;
