@@ -1,6 +1,7 @@
 <template>
-<div class="container">
-  <NavBar />
+<div class="main-container">
+  <NavBar/>
+  <div class="container">
   <div class="background-images">
     <div class="phones"></div>
     <div class="store"></div>
@@ -8,22 +9,23 @@
   <Details/>
   <Cards/>
   <Review/>
-  <Footer/>
+</div>
+<Footer/>
 </div>
 </template>
 
 <script>
-import Footer from '~/components/Footer.vue'
 export default {
-  components: { Footer },
-  name: 'IndexPage',
+  name: 'IndexPage'
 }
 </script>
 <style scoped>
+.main-container{
+  position: relative;
+}
 .container{
   max-width: 1440px;
   margin: 0 auto;
-  position: relative;
 }
 .phones{
   background-image: url(~assets/images/phone.png);
@@ -31,7 +33,9 @@ export default {
   width: 580.49px;
   height: 701.75px;
   top: 443px;
-  left: 430px;
+  left: 0;
+  right:0;
+  margin: auto;
 }
 .store{
   background-image: url(~assets/images/stores.png);
@@ -39,6 +43,8 @@ export default {
   width: 535px;
   height: 84px;
   top: 1241px;
-  left: 464px;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 </style>

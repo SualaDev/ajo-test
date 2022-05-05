@@ -26,7 +26,7 @@
 
 <script>
   export default {
-    name:'CardS'
+    name:'CardsPage'
   }
 </script>
 
